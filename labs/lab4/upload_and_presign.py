@@ -40,4 +40,3 @@ presigned_url = s3.generate_presigned_url(
 )
 
 print(f"Presigned URL (valid for {expiration_time} seconds):\n{presigned_url}")
-
